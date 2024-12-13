@@ -1,0 +1,5 @@
+[
+    { "id": 1, "name": "Purpose 1", "form": "form1.js" },
+    { "id": 2, "name": "Purpose 2", "form": "form2.js" },
+    { "id": 3, "name": "Purpose 3", "form": "form3.js" }
+]
