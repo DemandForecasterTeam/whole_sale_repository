@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  display: grid | inline-grid;
+  background-color: #BADA55;
+  /* max-width: 960px; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Main {
+  grid-item-start: 1;
+  grid-column-end: five;
 }
 
 @media (prefers-reduced-motion: no-preference) {
