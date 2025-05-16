@@ -1,13 +1,34 @@
+
+// Custom Colors
 $primary-color: #fff;
+$secondary: #ccc;
+
+$white: #FFFFFF;
+$white60: #FFFFFF99;
+$grey05: #F7F7F7;
+$grey10: #F0F0F0;
+$grey20: #D8D8D8;
+$grey30: #C0C0C0;
+$grey40: #A9A9A9;
+$grey50: #888888;
+$grey60: #696969;
+$grey70: #505050;
+$grey80: #303030;
+$grey90: #101010;
+$black: #000000;
+
+$red: #ff0000;
 $dev-color: #BADA55;
 
+html {
+  background-color: $grey80;
+}
 
 .App {
   text-align: center;
-  // display: inline-grid;
   display: grid;
   background-color: $dev-color;
-  /* max-width: 960px; */
+  max-width: 960px;
 }
 
 .App-logo {
@@ -18,7 +39,7 @@ $dev-color: #BADA55;
 .Main {
   grid-item-start: 1;
   grid-column-end: five;
-  color: $primary-color;
+  color: $black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
