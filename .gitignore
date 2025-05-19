@@ -1,2 +1,5 @@
 **/__pyache__
 venv
+
+# OSX
+.DS_Store
