@@ -1,0 +1,20 @@
+version: 1
+frontend:
+  phases:
+    # IMPORTANT: The preBuild phase is for installing dependencies
+    preBuild:
+      commands:
+        - npm ci # Use 'ci' for faster, more reliable installs in CI/CD
+    # The build phase is for running the build script
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    # This points to the folder where the build output is generated
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    # This caches the node_modules folder to speed up subsequent builds
+    paths:
+      - node_modules/**/*
