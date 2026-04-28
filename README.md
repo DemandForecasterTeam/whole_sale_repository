@@ -1,6 +1,6 @@
 # Online Sporting Goods Forecaster
 
-> **Check out the [interactive project page](https://mei-hazeslip.github.io/order-forecaster.html](https://mei-hazeslip.github.io/online-sporting-goods-forecaster.html) for a simple breakdown and live demo.**
+> **Check out the [interactive project page](https://mei-hazeslip.github.io/online-sporting-goods-forecaster.html) for a simple breakdown and live demo.**
 
 ## Goal
 Predicting number of sales for different sports category in the following years.
