@@ -2,19 +2,19 @@
 
 > **Check out the [interactive project page]([https://mei-hazeslip.github.io/order-forecaster.html](https://mei-hazeslip.github.io/online-sporting-goods-forecaster.html)) for a simple breakdown and live demo.**
 
-# Goal
+## Goal
 Predicting number of sales for different sports category in the following years.
 
-# Data
+## Data
 This package used the online sporting goods dataset from [Kaggle](https://www.kaggle.com/datasets/gabrielsantello/wholesale-and-retail-orders-dataset).
 
-# Clone The Repository
+## Clone The Repository
 ```
 git clone https://github.com/amayaaaa24/whole_sale_repository.git
 
 ```
 
-# Setting-up Virtual Environment (venv)
+## Setting-up Virtual Environment (venv)
 ```
 cd whole_sale_repository
 # pip install virtualenv
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ```
 
-# Running a Flask Application:
+## Running a Flask Application:
 
 1. Navigate to your project directory (the folder where your app.py is located): 
 ```cd /path/to/your/project```
